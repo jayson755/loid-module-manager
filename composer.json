@@ -1,0 +1,21 @@
+{
+    "name": "jiangx/loid-module-manager",
+    "description": "管理人员模块",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jiangx",
+            "email": "jiang7552261@163.com"
+        }
+    ],
+    "minimum-stability":"dev",
+    "require": {
+        "jiangx/loid-frame":"^1.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "Loid\\Module\\Manager\\": "src/"
+        }
+    }
+}
