@@ -1,5 +1,5 @@
 {
-    "name": "jiangx/loid-module-manager",
+    "name": "jayson755/loid-module-manager",
     "description": "管理人员模块",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "minimum-stability":"dev",
     "require": {
-        "jiangx/loid-frame":"^1.0"
+        "jayson755/loid-frame":"^1.0"
     },
     "autoload":{
         "psr-4": {
