@@ -43,7 +43,7 @@ $(document).ready(function() {
 		shrinkToFit: true,
 		rowNum: {{$rows}},
 		rowList: [10, 20, 30],
-        sortname: 'id',
+        sortname: 'created_at',
         sortorder: 'desc',
 		loadComplete : function(xhr){ //请求成功事件
 			try{
@@ -61,11 +61,6 @@ $(document).ready(function() {
 			{name:"email",index:"email",align: "center",editable:true,edittype:'text',editrules:{edithidden:true,required:true},width: 90,search: true},
 			
 			{name:"created_at",index:"created_at",align: "center",editable:false,width: 90,search: true},
-			
-			//{name:"role",index:"role",align:"center",editable:true,edittype:'select',editrules:{edithidden:true,required:true},
-			//	editoptions : {dataUrl:"{{route('api.role')}}"},
-			//	width: 90,search: false, sortable:false
-			//},
 		],
 		pager: "#pager_list_2",
 		viewrecords: true,
